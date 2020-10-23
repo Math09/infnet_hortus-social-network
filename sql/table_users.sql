@@ -1,0 +1,9 @@
+﻿CREATE TABLE users(
+	
+	id INT IDENTITY PRIMARY KEY NOT NULL,
+	photo VARCHAR(255) NULL,
+	users_name VARCHAR(50) NOT NULL,
+	email VARCHAR(50) NOT NULL,
+	user_password VARCHAR(255) NOT NULL
+
+);
