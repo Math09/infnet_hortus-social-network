@@ -10,6 +10,7 @@ namespace hortus.Models
     [Table("comment")]
     public class CommentModel
     {
+
         [Key]
         [Column("id_comment")]
         public int IdComment { get; set; }
