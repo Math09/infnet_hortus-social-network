@@ -64,8 +64,8 @@ D:\repositories\infnet_hortus-social-network\hortus\hortus\hortus\bin\System.Net
 D:\repositories\infnet_hortus-social-network\hortus\hortus\hortus\bin\System.Web.Http.xml
 D:\repositories\infnet_hortus-social-network\hortus\hortus\hortus\bin\System.Web.Http.WebHost.xml
 D:\repositories\infnet_hortus-social-network\hortus\hortus\hortus\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\repositories\infnet_hortus-social-network\hortus\hortus\hortus\obj\Debug\hortus.csprojAssemblyReference.cache
 D:\repositories\infnet_hortus-social-network\hortus\hortus\hortus\obj\Debug\hortus.csproj.CoreCompileInputs.cache
 D:\repositories\infnet_hortus-social-network\hortus\hortus\hortus\obj\Debug\hortus.csproj.CopyComplete
 D:\repositories\infnet_hortus-social-network\hortus\hortus\hortus\obj\Debug\hortus.dll
 D:\repositories\infnet_hortus-social-network\hortus\hortus\hortus\obj\Debug\hortus.pdb
+D:\repositories\infnet_hortus-social-network\hortus\hortus\hortus\obj\Debug\hortus.csprojAssemblyReference.cache
