@@ -19,7 +19,7 @@ namespace hortus.Models
         public UserModel User { get; set; }
 
         [Column("id_friend")]
-        public ICollection<UserModel> Friends { get; set; }
+        public UserModel Friends { get; set; }
 
     }
 }
