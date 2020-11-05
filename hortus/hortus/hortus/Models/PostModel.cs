@@ -16,8 +16,10 @@ namespace hortus.Models
         [Column("id_post")]
         public int IdPost { get; set; }
 
-        [Column("id_user")]
-        public UserModel User { get; set; }
+        [ForeignKey("id_user")]
+        public int id_user { get; set; }
+
+        public ICollection<UserModel> User { get; set; }
 
         [Column("photo")]
         public string Photo { get; set; }
