@@ -17,7 +17,8 @@ namespace hortus.Services
 
         public IEnumerable<PostModel> Get()
         {
-            return _dataContext.Post;
+            var posts = _dataContext.Post.Include("User").ToList();
+            return posts;
         }
 
         public void Post( PostModel post )
