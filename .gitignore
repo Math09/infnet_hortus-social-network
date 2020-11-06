@@ -1,3 +1,9 @@
+# horuts-client | front-end
+hortus-client/target
+hortus-client/build
+hortus-client/node_modules
+hortus-client/?git
+
 # hortus | back-end
 /hortus/hortus/App_Data/
 /hortus/hortus/bin/
