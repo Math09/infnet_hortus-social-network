@@ -5,7 +5,7 @@ hortus-client/node_modules
 hortus-client/?git
 
 # hortus | back-end
-/hortus/hortus/App_Data/
+/hortus/hortus/obj/
 /hortus/hortus/bin/
 /hortus/packages/
 
