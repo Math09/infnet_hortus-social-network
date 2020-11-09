@@ -1,10 +1,7 @@
 ﻿using hortus.Services;
 using Microsoft.Owin.Security.OAuth;
-using System;
-using System.Runtime.CompilerServices;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using System.Web;
 
 namespace hortus.Providers
 {

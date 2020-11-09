@@ -1,14 +1,11 @@
 ﻿using hortus.Models;
 using hortus.Services;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 
 namespace hortus.Controllers
 {
+    [Authorize]
     [Route("user/")]
     public class UserController : ApiController
     {
@@ -25,22 +22,22 @@ namespace hortus.Controllers
             return _userService.Get();
         }
 
-        [Route("user/{id:int}")]
+        [Route( "user/{id:int}" )]
         public UserModel GetUser( int id )
         {
-            return _userService.GetById(id);
+            return _userService.GetById( id );
         }
 
-        [Route("user/delete/{id:int}")]
+        [Route( "user/delete/{id:int}" )]
         public void Delete( int id )
         {
-            _userService.Delete(id);
+            _userService.Delete( id );
         }
 
         [HttpPut]
         public void Put( UserModel model )
         {
-            _userService.Put(model);
+            _userService.Put( model );
         }
 
         [HttpPost]
@@ -48,7 +45,7 @@ namespace hortus.Controllers
         {
             if( model.UserEmail != null && model.UserName != null && model.UserPassword != null )
             {
-                _userService.Post(model);
+                _userService.Post( model );
             }
         }
     }

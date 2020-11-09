@@ -1,14 +1,12 @@
 namespace hortus
 {
     using hortus.Models;
-    using System;
     using System.Data.Entity;
-    using System.Linq;
 
     public class DataContext : DbContext
     {
         public DataContext()
-            : base("name=hortus_db")
+            : base( "name=hortus_db" )
         {
 
         }
