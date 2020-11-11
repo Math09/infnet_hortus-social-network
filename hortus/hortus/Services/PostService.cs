@@ -1,8 +1,6 @@
 ﻿using hortus.Models;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 
 namespace hortus.Services
 {
@@ -17,13 +15,13 @@ namespace hortus.Services
 
         public IEnumerable<PostModel> Get()
         {
-            var posts = _dataContext.Post.Include("User").ToList();
+            var posts = _dataContext.Post.Include( "User" ).ToList();
             return posts;
         }
 
         public void Post( PostModel post )
         {
-            _dataContext.Post.Add(post);
+            _dataContext.Post.Add( post );
             _dataContext.SaveChanges();
         }
     }
